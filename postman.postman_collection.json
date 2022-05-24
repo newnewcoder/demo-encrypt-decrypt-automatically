@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "df0a23c7-227d-46c9-bc7e-dd01b176d1e8",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "測試一下"
+				},
+				"url": {
+					"raw": "http://localhost:8080/client",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test server",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "lAD08V0NA8lgVSltZ%2Fq%2BNw%3D%3D"
+				},
+				"url": {
+					"raw": "http://localhost:8080/server",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"server"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
